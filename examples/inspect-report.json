@@ -1,0 +1,71 @@
+{
+  "black_level": {
+    "count_at_or_below": 0,
+    "fraction_at_or_below": 0.0,
+    "threshold": 0.0
+  },
+  "cfa": "RGGB",
+  "cfa_tile": [
+    [
+      "R",
+      "G1"
+    ],
+    [
+      "G2",
+      "B"
+    ]
+  ],
+  "channels": {
+    "B": {
+      "max": 935.0,
+      "mean": 801.14453125,
+      "median": 801.0,
+      "min": 669.0,
+      "samples": 2304,
+      "std_population": 55.98736089036322
+    },
+    "G1": {
+      "max": 968.0,
+      "mean": 833.5078125,
+      "median": 833.0,
+      "min": 698.0,
+      "samples": 2304,
+      "std_population": 58.53473364705361
+    },
+    "G2": {
+      "max": 968.0,
+      "mean": 832.6935763888889,
+      "median": 833.0,
+      "min": 696.0,
+      "samples": 2304,
+      "std_population": 58.257061985970594
+    },
+    "R": {
+      "max": 1009.0,
+      "mean": 864.8767361111111,
+      "median": 864.0,
+      "min": 720.0,
+      "samples": 2304,
+      "std_population": 60.88308821843465
+    }
+  },
+  "dtype": "uint16",
+  "frame": {
+    "max": 1009.0,
+    "mean": 833.0556640625,
+    "median": 833.0,
+    "min": 669.0,
+    "samples": 9216,
+    "std_population": 62.63539712942481
+  },
+  "kind": "single_frame_audit",
+  "saturation_level": {
+    "count_at_or_above": 0,
+    "fraction_at_or_above": 0.0,
+    "threshold": 4095.0
+  },
+  "shape": [
+    96,
+    96
+  ]
+}

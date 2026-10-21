@@ -1,0 +1,70 @@
+{
+  "assumptions": [
+    "The frames show the same scene and are spatially registered.",
+    "Per-pixel noise is independent between captures and has equal variance.",
+    "The estimate includes any scene, illumination, or registration changes in the frame difference."
+  ],
+  "cfa": "RGGB",
+  "channels": {
+    "B": {
+      "difference": {
+        "max": 29.0,
+        "mean": -0.2530381944444444,
+        "median": 0.0,
+        "min": -34.0,
+        "samples": 2304,
+        "std_population": 8.53651975859126
+      },
+      "per_frame_temporal_noise_std_estimate": 6.036231009032829
+    },
+    "G1": {
+      "difference": {
+        "max": 31.0,
+        "mean": 0.18880208333333334,
+        "median": 0.0,
+        "min": -27.0,
+        "samples": 2304,
+        "std_population": 8.550322623607453
+      },
+      "per_frame_temporal_noise_std_estimate": 6.045991108485582
+    },
+    "G2": {
+      "difference": {
+        "max": 32.0,
+        "mean": -0.059895833333333336,
+        "median": 0.0,
+        "min": -33.0,
+        "samples": 2304,
+        "std_population": 8.408663025596768
+      },
+      "per_frame_temporal_noise_std_estimate": 5.945822646112066
+    },
+    "R": {
+      "difference": {
+        "max": 31.0,
+        "mean": 0.06987847222222222,
+        "median": 0.0,
+        "min": -30.0,
+        "samples": 2304,
+        "std_population": 8.469608391459163
+      },
+      "per_frame_temporal_noise_std_estimate": 5.988917527595261
+    }
+  },
+  "difference_second_minus_first": {
+    "max": 32.0,
+    "mean": -0.013563368055555556,
+    "median": 0.0,
+    "min": -34.0,
+    "samples": 9216,
+    "std_population": 8.4930482741143
+  },
+  "dtype_first": "uint16",
+  "dtype_second": "uint16",
+  "kind": "repeat_frame_noise_audit",
+  "per_frame_temporal_noise_std_estimate": 6.0054920275709245,
+  "shape": [
+    96,
+    96
+  ]
+}
